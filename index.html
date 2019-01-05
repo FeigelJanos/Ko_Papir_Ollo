@@ -1,1 +1,35 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Asap:400,700" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <title>Rock Paper Scissors Game</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+  <h1>Rock Paper Scissors!</h1>
+  </header>
+  <div class="matches">
+    <p class="match">You played</p> <span class="match" id="match-score"> 0 </span> <p class="match">       matches!</p>
+  </div>
+  <div class="score-board">
+    <div class="badge" id="user-label">User</div>
+    <div class="badge" id="computer-label">Computer</div>
+    
+  </div>
+  <div class="score">
+    <span id="user-score">0</span> : <span id="computer-score">0</span>
+    </div>
+  <div class="result">
+    <p>Match Result.</p>
+  </div>
+  <div class="choices">
+    <div class="choice" id="rock"><i class="fas fa-hand-rock"></i> </div>
+     <div class="choice" id="paper"><i class="fas fa-hand-paper"></i></div>
+     <div class="choice" id="scissor"><i class="fas fa-hand-scissors"></i></div>
+  </div>
+  <p class="finish">Choose your move!</p>
+   <script src="kpo.js"></script>
+</body>
